@@ -20,16 +20,16 @@ if(number !== ran ){
     }
         number = parseInt(prompt("Wrong Answer: 3rd & last Try" + "\n" + hint ));
         if(number !== ran){ 
-            document.write("<center>You Lose! Correct Answer is " + ran + " <\center> ");
+            document.write("<center><h1>You Lose! Correct Answer is " + ran + "<\h1> <\center> ");
         }
         else{
-            document.write("<center>Congrats You Guess the Correct Number You Win<\center>");
+            document.write("<center><h1>Congrats You Guess the Correct Number You Win<\h1><\center>");
         }
     }
     else{
-        document.write("<center>Congrats You Guess the Correct Number You Win<\center>");
+        document.write("<center><h1>Congrats You Guess the Correct Number You Win<\h1><\center>");
     }
 }
 else{
-    document.write("<center>Congrats You Guess the Correct Number You Win<\center>");
+    document.write("<center><h1>Congrats You Guess the Correct Number You Win<\h1><\center>");
 }
